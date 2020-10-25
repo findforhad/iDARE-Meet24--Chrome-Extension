@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet24® Lightweight</title>
+    <link rel="shortcut icon" href="meet24_99.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+
+    <style>
+      html,
+      body {
+        min-height: 180px;
+        width: 540px;
+        font-size: 14px;
+      }
+      .ui.segment {
+        border-radius: 0 0 0.28571429rem;
+      }
+      .mt-2 {
+        margin-top: 14px;
+      }
+      .ml-2 {
+        margin-top: 14px;
+      }
+      .meeting_links {
+        visibility: hidden;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .ui.menu .item > img:not(.ui) {
+        width: 125px;
+      }
+      .ui.text.menu {
+        margin: 0em -0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ui text segment" id="plugin_parant">
+      <div class="ui text menu">
+        <div class="item">
+          <img src="idare_tm.png" alt="IDARE" />
+        </div>
+
+        <div class="ui right dropdown item">
+          <a
+            href="http://dev.idareengine.com/"
+            target="blank"
+            style="color: #db2828"
+            >Visit iDARE Engine v1
+          </a>
+        </div>
+      </div>
+      <h2 class="ui header">iDARE Video Meetings. Now free for 24/365.</h2>
+      <p>
+        We re-engineered the service we built for secure business meetings,
+        Google Meet, to make it free and available for our fit.
+      </p>
+      <div class="ui buttons fluid">
+        <button class="ui blue basic button" id="meet_colleague">
+          <i class="linkify icon"></i>Get colleague meeting link
+        </button>
+        <button class="ui olive basic button" id="instant_meeting">
+          <i class="plus square outline icon"></i>Start an instant meeting
+        </button>
+      </div>
+      <div class="mt-2">
+        <div class="ui buttons fluid">
+          <button class="ui green basic button" id="standup_meeting">
+            <i class="angellist icon"></i>Remote team stand up meeting
+          </button>
+          <button class="ui orange basic button" id="review_meeting">
+            <i class="wpforms icon"></i>Weekly work review meeting
+          </button>
+        </div>
+      </div>
+      <div class="mt-2">
+        <button class="ui fluid orange basic button" id="us_meeting">
+          <i class="buromobelexperte icon"></i>Standalone meeting with Boos
+        </button>
+      </div>
+      <div class="mt-2">
+        <div class="ui red icon message">
+          <div class="content">
+            <div class="header">Looking for something else?</div>
+            <ul class="list">
+              <li>Use our <a href="idare.io">help center</a></li>
+              <li>Checkout <a href="#" id="dv24">Dream Vision24®</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="meeting_links">
+      <p id="meet_colleague_link">https://meet.google.com/yur-arhw-zix</p>
+      <p id="instant_meeting_link">
+        https://meet.google.com/_meet/uem-cwov-reu?ijlm=1603656322530&adhoc=1&hs=187
+      </p>
+      <p id="standup_meeting_link">https://meet.google.com/afg-owdh-hdi</p>
+      <p id="review_meeting_link">https://meet.google.com/gem-zrrv-gws</p>
+      <p id="us_meeting_link">https://meet.google.com/nmn-wvdh-iss</p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
