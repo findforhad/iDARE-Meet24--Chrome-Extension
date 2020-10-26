@@ -24,4 +24,4 @@ Visit chrome store and trun on developer mode then upload the plugin
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the `MIT LICENSE`.
