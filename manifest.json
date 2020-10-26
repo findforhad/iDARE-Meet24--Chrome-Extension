@@ -1,7 +1,7 @@
 {
-  "menifest_version": "1",
+  "manifest_version": 2,
   "name": "iDARE Meet24®",
-  "description": "A chrome plugin that make life easy to meet people 24 when you are on chrome.",
+  "description": "A chrome plugin that makes iDARE employes life easy to attend their meetings when they are on chrome.",
   "version": "1.0.0",
   "icons": {
     "128": "meet24_128.png"
@@ -10,5 +10,5 @@
     "default_icon": "meet24_99.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activetab"]
+  "permissions": ["activeTab"]
 }
