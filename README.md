@@ -20,7 +20,9 @@
 
 Visit chrome store and trun on developer mode then upload the plugin
 
-<!-- LICENSE -->
+ <p>
+ <img src="images/exp2.png" alt="findforhad">
+ </p>
 
 ## License
 
