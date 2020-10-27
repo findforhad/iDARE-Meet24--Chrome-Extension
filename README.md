@@ -27,3 +27,5 @@ Visit chrome store and trun on developer mode then upload the plugin
 ## License
 
 Distributed under the `MIT LICENSE`.
+
+<img src="logo_large.png" alt="findforhad" height="80">
